@@ -1,0 +1,342 @@
+<!DOCTYPE html><html lang="en-US" xmlns="http://www.w3.org/1999/html" class="solid-bg"><head>
+    <title>HOT VIDEOS TODAY: Top Instagram Bio Links - Smart.bio</title>
+    <meta charset="utf-8">
+    <meta name="description" content="HOT VIDEOS TODAY: 🔞WATCH ALL VIDEOS IN HD🔞">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        :root {
+            --link-in-bio-color: #fe1334;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        .link-in-bio-grid {
+            max-width: 375px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .link-in-bio-header {
+            display: grid;
+            grid-template-columns: 50px auto;
+            grid-gap: 10px;
+        }
+
+        .instagram-profile-picture {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .link-in-bio-page-name {
+            height: 23px;
+            color: #333333;
+            font-family: Helvetica Neue, Arial, sans-serif;
+            font-size: 19px;
+            font-weight: bold;
+            line-height: 24px;
+            align-self: center;
+            text-overflow: ellipsis;
+            text-align: left;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .link-in-bio-tw-logo {
+            height: 14px;
+            justify-self: center;
+            align-self: center;
+            margin-bottom: 3px;
+            margin-left: 3px;
+        }
+
+        .link-in-bio-footer {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: #e1e1e1;
+            box-sizing: border-box;
+            vertical-align: middle;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            font-family: "Helvetica Neue", Helvetica Neue, Arial, sans-serif;
+            height: 32px;
+            box-shadow: 0 -2px 4px 0 rgba(205, 205, 205, 0.34);
+            color: #808080;
+            font-size: 9.6px;
+            line-height: 15px;
+            text-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+        }
+
+        .in-preview .link-in-bio-footer {
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .link-in-bio-footer a {
+            color: #0793CA;
+            margin-right: 5px;
+        }
+
+        .link-in-bio-footer a>strong {
+            font-size: 120%;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #ref-link {
+            display: flex;
+        }
+
+        #ref-link div {
+            align-items: center;
+            border-radius: 25px;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 15px;
+            padding: 12px 17px 12px 17px;
+            display: flex;
+            position: fixed;
+            right: 3%;
+            bottom: 3%;
+            background: rgb(253, 148, 34);
+            background: linear-gradient(45deg, rgba(253, 148, 34, 1) 0%, rgba(246, 93, 57, 1) 18%, rgba(226, 66, 83, 1) 44%, rgba(219, 64, 104, 1) 69%, rgba(212, 63, 138, 1) 100%);
+        }
+
+        #ref-link div img {
+            transform: rotate(-45deg);
+            margin-right: 5px;
+        }
+
+        #ref-link div span {
+            font-family: 'Open Sans', sans-serif
+        }
+    </style>
+
+    <style>
+        .featured-links {
+            display: flex;
+            flex-direction: column;
+            padding: 28px 0;
+        }
+
+        .btn-featured-link {
+            color: var(--link-in-bio-color);
+            background-color: var(--link-in-bio-color);
+            border-radius: 4px;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .btn-featured-link:hover,
+        .btn-featured-link:focus,
+        .btn-featured-link:active {
+            filter: brightness(0.93);
+        }
+
+        .featured-link-text {
+            align-items: center;
+            color: #FFFFFF;
+            display: flex;
+            font-family: Helvetica Neue, Arial, sans-serif;
+            font-size: 16px;
+            justify-content: center;
+            line-height: 20px;
+            padding-bottom: 12px;
+            padding-top: 12px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .media-links-grid {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: auto;
+            grid-gap: 11px;
+            padding-bottom: 40px;
+        }
+
+        .media-links-grid .media-link-grid {
+            cursor: pointer;
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 1px;
+        }
+
+        .media-links-grid img {
+            width: 100%;
+            height: auto;
+            grid-gap: 0;
+        }
+
+        .img-media-link {
+            background-size: cover;
+            background-position: center;
+            padding-top: 100%;
+        }
+
+        .btn-media-link {
+            box-sizing: border-box;
+            height: 36px;
+            border: 1px solid var(--link-in-bio-color);
+            border-radius: 4px;
+            color: var(--link-in-bio-color);
+            background-color: white;
+            font-family: Helvetica Neue, Arial, sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 14px;
+            text-align: center;
+            width: 100%;
+            text-decoration: none;
+            display: grid;
+            align-items: center;
+            border-radius: 0;
+            border-top: 0;
+            margin-top: -1px;
+
+            /* truncate the button text to prevent it from wrapping multiple lines */
+            width: auto;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .btn-media-link:hover,
+        .btn-media-link:focus,
+        .btn-media-link:active {
+            color: var(--link-in-bio-color);
+            background-color: #e6e6e6;
+        }
+    </style>
+    <!-- Google Optimize Code -->
+    <!-- anti-flicker snippet  -->
+    <style>
+        .async-hide {
+            opacity: 0 !important
+        }
+    </style>
+    <script>
+        (function(a, s, y, n, c, h, i, d, e) {
+            s.className += ' ' + y;
+            h.start = 1 * new Date;
+            h.end = i = function() {
+                s.className = s.className.replace(RegExp(' ?' + y), '')
+            };
+            (a[n] = a[n] || []).hide = h;
+            setTimeout(function() {
+                i();
+                h.end = null
+            }, c);
+            h.timeout = c;
+        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+            'OPT-5JTT8Q6': true
+        });
+    </script>
+    <script src="js/optimize.js"></script>
+    <!-- End Google Optimize Code -->
+</head>
+
+<body>
+
+    <div class="link-in-bio-grid">
+
+        <div class="link-in-bio-header">
+            <img src="images/5884c0a324c7db22bb56-w70h70.jpg" class="instagram-profile-picture">
+				
+            <div class="link-in-bio-page-name">HOT VIDEOS TODAY</div>
+	
+			
+        </div>
+
+        <div class="featured-links">
+            <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986" data-featured-link-id="718059" target="_blank" rel="nofollow">
+                    <span class="featured-link-text" data-featured-link-id="718059">
+                        🔞WATCH ALL VIDEOS IN HD🔞
+                    </span>
+                    </a>
+        </div>
+
+        <div class="media-links-grid">
+
+            <div class="media-link-grid">
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986" style="background-image: url('images/9cbff9a8d6db4308813b-w236.jpg')" class="img-media-link" data-media-link-id="4423221" target="_blank" rel="nofollow">
+                        </a>
+
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986" class="btn-media-link" data-media-link-id="4423221" target="_blank" rel="nofollow">
+                                                                                        WATCH FULL VIDEO
+                                                    </a>
+            </div>
+
+            <div class="media-link-grid">
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986" style="background-image: url('images/621f345f5aca2d42d407-w236.jpg')" class="img-media-link" data-media-link-id="4423217" target="_blank" rel="nofollow">
+                        </a>
+
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986" class="btn-media-link" data-media-link-id="4423217" target="_blank" rel="nofollow">
+                                                                                        HOT STUDENT LEAKS
+                                                    </a>
+            </div>
+
+            <div class="media-link-grid">
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986 " style="background-image: url('images/70523d8695bbdabd393d-w236.jpg')" class="img-media-link" data-media-link-id="4422837" target="_blank" rel="nofollow">
+                        </a>
+
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986" "="" class="btn-media-link " data-media-link-id="4422837 " target="_blank" rel="nofollow ">
+                                                                                        CAN YOU CUMM ME?
+                                                    </a>
+            </div>
+
+            <div class="media-link-grid">
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986 " style="background-image: url( 'images/8f3fe9888cc4f4ca462a-w236.jpg') " class="img-media-link " data-media-link-id="4422819 " target="_blank" rel="nofollow ">
+                        </a>
+
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986 " class="btn-media-link " data-media-link-id="4422819 " target="_blank" rel="nofollow ">
+                                                                                        CAN YOU HANDLE ME?
+                                                    </a>
+            </div>
+
+            <div class="media-link-grid">
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986 " style="background-image: url( 'images/32f28d5045f58f1ee2ed-w236.jpg') " class="img-media-link " data-media-link-id="4415392 " target="_blank" rel="nofollow ">
+                        </a>
+
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986 " class="btn-media-link " data-media-link-id="4415392 " target="_blank" rel="nofollow ">
+                                                                                        HOUSEGAL CAUGHT
+                                                    </a>
+            </div>
+
+            <div class="media-link-grid">
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986 " style="background-image: url( 'images/abeca4676e643b29621a-w236.jpg') " class="img-media-link " data-media-link-id="4177114 " target="_blank" rel="nofollow ">
+                        </a>
+
+                <a href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986 " class="btn-media-link " data-media-link-id="4177114 " target="_blank" rel="nofollow ">
+                                                                                        WIFE FINGERING IN
+                                                    </a>
+            </div>
+        </div>
+    </div>
+    <a id="ref-link " target="_blank " href="https://eltontry.com/vd9jbvak?key=259471327a79427abfae444544b4c986 " onclick="window.linkClickHandler(null, 'referral_link_click') ">
+        <div>
+            <img width="24px " height="24px " src="images/link-icon.svg">
+            <span>hook up nearby</span>
+        </div>
+    </a>
+
+
+</body></html>
